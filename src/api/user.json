@@ -1,0 +1,19 @@
+{
+    "id"                : "161CDE21-B1D5-4724-8E54-693DBD548E11",
+    "userName"          : "a-arce@live.com",
+    "firstName"         : "Angel",
+    "lastName"          : "Arce",
+    "companyName"       : "",
+    "displayName"       : "a.arce",
+    "email"             : "a-arce@live.com",
+    "primaryPhone"      : "9546610655",
+    "secondaryPhone"    : "",
+    "addressLine1"      : "8108 NW 94th LN",
+    "addressLine2"      : "",
+    "city"              : "Tamarac",
+    "state"             : "FL",
+    "postalCode"        : "33321",
+    "country"           : "USA",
+    "active"            : true,
+    "createdDate"       : ""
+}

@@ -1,0 +1,27 @@
+<p>
+	client-list works!
+</p>
+<div>
+	<a class="btn btn-primary">Add your first client...</a>
+</div>
+
+<!-- header -->
+<div class="row">
+	<div class="col-xs-9"><h4>Client</h4></div>
+	<div class="col-xs-3 text-right"><h4>Balance</h4></div>
+</div>
+<!-- rows -->
+<div class="row client-row" *ngFor="let client of clients">
+	<div class="col-xs-9">
+		<h4 style="margin-bottom:0px">{{client.name}}</h4>
+		<!-- address -->
+		<div style="font-size:11px">{{client.fullAddress}}</div>
+	</div>
+	<div class="col-xs-3 text-right">
+		<h4 style="margin-bottom:0px">{{client.balance | currency:'USD':true}}</h4>
+	</div>
+	<!-- open invoices -->
+	<div class="col-xs-12" *ngIf="client.invoices.length">
+		<p class="text-center">No open invoices</p>
+	</div>
+</div>

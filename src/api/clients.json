@@ -1,0 +1,103 @@
+[
+    {
+        "id"            : "0C08733A-7582-47CB-9E55-166ACA659DA0",
+        "user_Id"       : "161CDE21-B1D5-4724-8E54-693DBD548E11",
+        "businessPhone" : "9545831552",
+        "addressLine1"  : "15010 NE 36th St",
+        "addressLine2"  : "", 
+        "city"          : "Redmond",
+        "state"         : "WA",
+        "postalCode"    : "98052",
+        "countryCode"   : "USA", 
+        "active"        : true,
+        "createdDate"   : "",
+        "name"          : "Microsoft",
+        "fullAddress"   : "15010 NE 36th St, Redmond, WA 98052 USA",
+        "balance"       : 500.00,
+        "contacts"      : [
+            {
+                "id"                : "91672840-2899-4F45-9F45-8B1C5A083F64",
+                "client_Id"         : "BD4C837D-0DA2-4E9E-BFB9-91621B4BF7E8",
+                "firstName"         : "Nicolas",
+                "lastName"          : "Switch",
+                "email"             : "nicolas.switch@gmail.com",
+                "primaryPhone"      : "1112223333",
+                "secondaryPhone"    : "",
+                "isPrimary"         : true,
+                "createdDate"       : ""
+            }
+        ],
+        "invoices"      : []
+    },
+    {
+        "id"            : "93760766-6F3B-46C3-881F-4F9AFB5620F9",
+        "user_Id"       : "161CDE21-B1D5-4724-8E54-693DBD548E11",
+        "businessPhone" : "8652669273",
+        "addressLine1"  : "3250 W Commercial Blvd",
+        "addressLine2"  : "", 
+        "city"          : "Fort Lauderdale",
+        "state"         : "FL",
+        "postalCode"    : "33309",
+        "countryCode"   : "USA", 
+        "active"        : true,
+        "createdDate"   : "",
+        "name"          : "Cisco Systems",
+        "fullAddress"   : "3250 W Commercial Blvd, Fort Lauderdale, FL 33309 USA",
+        "balance"       : 1350.00,
+        "contacts"      : [
+            {
+                "id"                : "741B686A-D0B2-4605-9E75-E481F553CED9",
+                "client_Id"         : "BD4C837D-0DA2-4E9E-BFB9-91621B4BF7E8",
+                "firstName"         : "Nicolas",
+                "lastName"          : "Switch",
+                "email"             : "nicolas.switch@gmail.com",
+                "primaryPhone"      : "1112223333",
+                "secondaryPhone"    : "",
+                "isPrimary"         : true,
+                "createdDate"       : ""
+            }
+        ],
+        "invoices"      : []
+    },
+    {
+        "id"            : "BD4C837D-0DA2-4E9E-BFB9-91621B4BF7E8",
+        "user_Id"       : "161CDE21-B1D5-4724-8E54-693DBD548E11",
+        "businessPhone" : "9784298594",
+        "addressLine1"  : "200 E Las Olas Blvd",
+        "addressLine2"  : "", 
+        "city"          : "Fort Lauderdale",
+        "state"         : "FL",
+        "postalCode"    : "33301",
+        "countryCode"   : "USA", 
+        "active"        : true,
+        "createdDate"   : "",
+        "name"          : "Akamai Technologies",
+        "fullAddress"   : "200 E Las Olas Blvd, Fort Lauderdale, FL 33301 USA",
+        "balance"       : 0.00,
+        "contacts"      : [
+            {
+                "id"                : "0DB5EED2-BCB6-4961-BAEA-867902471AFB",
+                "client_Id"         : "BD4C837D-0DA2-4E9E-BFB9-91621B4BF7E8",
+                "firstName"         : "Jay San",
+                "lastName"          : "Akamai",
+                "email"             : "jsan.akamai@gmail.com",
+                "primaryPhone"      : "5555557777",
+                "secondaryPhone"    : "",
+                "isPrimary"         : true,
+                "createdDate"       : ""
+            }, 
+            {
+                "id"                : "DA020EE3-7D80-47C3-88B4-A877C7ACBCEB",
+                "client_Id"         : "BD4C837D-0DA2-4E9E-BFB9-91621B4BF7E8",
+                "firstName"         : "Ellen",
+                "lastName"          : "Akamai",
+                "email"             : "ellen.akamai@gmail.com",
+                "primaryPhone"      : "4443339999",
+                "secondaryPhone"    : "",
+                "isPrimary"         : false,
+                "createdDate"       : ""
+            }
+        ],
+        "invoices"      : []
+    }
+]
